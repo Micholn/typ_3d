@@ -1,4 +1,4 @@
-export const textVariant = (delay: any) => {
+export const textVariant = (delay: number) => {
   return {
     hidden: {
         y: -50,
@@ -16,12 +16,22 @@ export const textVariant = (delay: any) => {
   };
 };
 
-export const fadeIn = ({direction, type, delay, duration} : any) => {
-  return {
-    hidden: {
-      x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-      y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-      opacity: 0,
+export const fadeIn = ({ 
+     direction, 
+     type, 
+     delay, 
+     duration  
+    } : { 
+      direction: string; 
+      type: string; 
+      delay: number; 
+      duration: number; 
+    }) => {
+    return {
+      hidden: {
+        x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
+        y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
+        opacity: 0,
     }, 
     show: {
        x: 0,
@@ -37,7 +47,13 @@ export const fadeIn = ({direction, type, delay, duration} : any) => {
   };
 };
 
-export const zoomIn = ({ delay, duration} : any) =>{
+export const zoomIn = ({ 
+    delay, 
+    duration} : 
+    {
+      delay: number;
+      duration: number;
+    }) =>{
   return {
     hidden: {
         scale: 0,
@@ -56,7 +72,16 @@ export const zoomIn = ({ delay, duration} : any) =>{
   };
 };
 
-export const slideIn = ({ direction, type, delay, duration} : any) =>{
+export const slideIn = ({ 
+     direction, 
+     type, 
+     delay, 
+     duration} : {
+      direction: string;
+      type: string;
+      delay: number;
+      duration: number;
+     }) => {
   return {
     hidden: {
         x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
@@ -75,7 +100,7 @@ export const slideIn = ({ direction, type, delay, duration} : any) =>{
   };
 };
 
-export const staggerContainer = (staggerChildren, delayChildren) => {
+export const staggerContainer = (staggerChildren: number, delayChildren: number = 0 ) => {
   return {
     hidden: {},
     show: {
