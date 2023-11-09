@@ -1,5 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import { HTMLMotionProps } from "framer-motion";
 
 import { services } from "../constants";
 import { styles } from "../styles";
@@ -14,24 +15,20 @@ interface Service {
   icon: string;
 }
 
-interface ServiceCardProps {
+interface ServiceCardProps extends HTMLMotionProps<'div'>{
   index: number;
   title: string;
   icon: string;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon }) => (  
+const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon, ...props }) => (  
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      variants={fadeIn({ direction: "right", type: "spring", delay: index * 0.5, duration: 0.75})}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      {...props}
     >
       <div
-        options={{
-          max: 45,
-          scale: 1, 
-          speed: 450,
-        }}
         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
          <img
@@ -57,7 +54,7 @@ const About: React.FC =()=> {
       </motion.div>
 
       <motion.p
-         variants={fadeIn("", "", 0.1, 1)}
+         variants={fadeIn({direction: "", type: "", delay: 0.1, duration: 1})}
          className="mt-4 text-secondary text-[17px] max-w-3xl leadig-[30px]"
       >
         I'm a skilled software developer with experience in TypeScript and

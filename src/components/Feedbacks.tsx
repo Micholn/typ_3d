@@ -14,8 +14,8 @@ interface Testimonial {
   company: string;
 }
 
-const FeedbackCard: React.FC<Testimonial> = ({ index, testimonial, name, image, designation, company }) => (
- <motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)}
+const FeedbackCard: React.FC<Testimonial> = ({testimonial, name, image, designation, company }) => (
+ <motion.div variants={fadeIn({direction: "", type: "spring", delay: 0.1, duration: 1 })}
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full">
    
    <p className="text-white font-black text-[48px]">"</p>

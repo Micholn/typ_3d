@@ -24,7 +24,7 @@ interface Project {
 const ProjectCard: React.FC<Project> = ({ index, name, description, image, source_code_link, tags }) => {
 
   return ( 
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn({direction: "up", type: "spring", delay: index * 0.5, duration: 0.75})}>
       <Tilt
          options={{
           max: 45,
@@ -85,7 +85,7 @@ const Works: React.FC = ()=> {
 
        <div className="w-full flex">
           <motion.p
-            variants={fadeIn("", "", 0.1, 1)}
+            variants={fadeIn({direction: "", type: "", delay: 0.1, duration: 1})}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
             Following projects showcases my skills and experience through
