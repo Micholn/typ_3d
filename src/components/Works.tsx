@@ -78,7 +78,7 @@ const ProjectCard: React.FC<Project> = ({ index, name, description, image, sourc
 const Works: React.FC = ()=> {
   return(
     <div>
-       <motion.div variants={textVariant()}>
+       <motion.div variants={textVariant(0.7)}>
          <p className={styles.sectionSubText} >My Work</p>
          <h2 className={styles.sectionHeadText}>Projects.</h2>
        </motion.div>

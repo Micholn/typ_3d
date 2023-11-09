@@ -51,7 +51,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon }) => (
 const About: React.FC =()=> {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0.7)}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>

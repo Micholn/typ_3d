@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import { experiences } from "../constants";
 
 interface Experience {
@@ -70,7 +70,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience } )=> {
 const Experience: React.FC = () => {
   return(
     <>
-      <motion.div variants={textVariant()} >
+      <motion.div variants={textVariant(0.7)} >
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far 
         </p>
