@@ -8,7 +8,7 @@ const Stars = (props: any) => {
   const ref = useRef<any>();
   const sphere = random.inSphere(new Float32Array(5000), {radius: 1.2});
 
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15
   });
@@ -20,7 +20,7 @@ const Stars = (props: any) => {
              transparent
              color="#f272c8"
              size={0.002}
-             sizeAttentuation={true}
+             sizeAttenuaion={true}
              depthWrite={false}          
           />
        </Points>

@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 
 import {
@@ -11,7 +11,11 @@ import {
 
 import CanvasLoader  from "../Loader";
 
-const Ball = (props) => {
+interface BallProps {
+  imgUrl: string;
+}
+
+const Ball: React.FC<BallProps>  = (props) => {
   const [decal] = useTexture([props.imgUrl])
 
   return (
@@ -39,10 +43,12 @@ const Ball = (props) => {
 };
 
 
+interface BallCanvasProps {
+  icon: string;
+}
 
 
-
-const BallCanvas = ({ icon }) => {
+const BallCanvas: React.FC<BallCanvasProps> = ({ icon }) => {
   return (
     <Canvas
        frameloop='demand'

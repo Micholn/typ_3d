@@ -1,10 +1,11 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, ChangeEvent, FormEvent } from "react";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 import { EarthCanvas } from "./canvas"
 import emailjs from "@emailjs/browser";
+import {EmailJSResponseStatus } from "emailjs-com";
 
 
 const Contact: React.FC =()=> {
@@ -45,7 +46,7 @@ const Contact: React.FC =()=> {
           'qg2cv4NGpBU-9X5ey', 
         )
         .then(
-           (response: EmailJSResponseStatus) => {
+           (_response: EmailJSResponseStatus) => {
              setLoading(false);
              alert("Thank you. I will get back to you as soon as possible");
 

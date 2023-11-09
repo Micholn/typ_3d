@@ -6,7 +6,7 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
 interface NavLink {
-  id: number;
+  id: string;
   title: string;
 }
 
@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
           {navLinks.map((nav: NavLink) => (
             <li
               key={nav.id}
-              className={`${ active === nav.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={`${active === nav.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
