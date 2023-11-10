@@ -212,7 +212,7 @@ export const experiences = [
         "I built interactive web pages that are user-friendly and responsive across all devices implementing visual elements that are visible from the computer user’s vantage point.",
         "I was Responsible for ensuring the alignment of web design and user experience requirements, optimizing web pages for maximum efficiency, and maintaining brand consistency across all web pages among other duties.",
         "working at Saitob did not just help sharpen my skills in software development and Engineering but also honed my ability to lead and work as a team",
-        "Redesigned parts of the company’s flagship product, to improve navigation, and visuals, and enhance user experience, which led to an increase in user retention and improved site interactions.",
+        "Redesigned parts of the company's flagship product, to improve navigation, and visuals, and enhance user experience, which led to an increase in user retention and improved site interactions.",
         "Utilized programming capabilities in JavaScript and other libraries.",
     ],
   },
