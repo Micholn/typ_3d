@@ -22,6 +22,12 @@ import {
   dwayne,
   jerimicho,
   rahul,
+  celld, 
+  deep,
+  rice,
+  inh,
+  ddd,
+
 } from "../assets";
 
 import { 
