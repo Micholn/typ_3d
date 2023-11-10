@@ -361,7 +361,7 @@ export const testimonials = [
   },
   {
     testimonial:
-      "Michael was that Developer who would jump in on calls with our clients on weekends to resolve issues and constantly doing research to fit their ideas and plans for their sites, I don't think anybody can out-work him.",
+      "I don't believe anyone can outwork Michael, the developer who would frequently pitch in on weekends to help clients with their problems and conduct ongoing research to support their ideas and goals for their websites. It seemed as though he didn't understand the concept of vacations or holidays.",
     name: "Dwayne Louis",
     designation: "CEO",
     company: "Digital Dada",
