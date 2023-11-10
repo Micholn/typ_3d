@@ -345,7 +345,7 @@ export const projects = [
 export const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "During Michael's tenure with Ricecakes, as our Lead Engineer, he consistently demonstrated exceptional dedication, creativity and a strong work ethic. He consistently went above and beyond expectations, tackling challenges with a positive attitude and finding innovative solutions",
     name: "Jeremicho Delumpa",
     designation: "CEO",
     company: "Ricecakes",
@@ -361,7 +361,7 @@ export const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Michael was that Developer who would jump in on calls with our clients on weekends to resolve issues and constantly doing research to fit their ideas and plans for their sites, I don't think anybody can out-work him.",
     name: "Dwayne Louis",
     designation: "CEO",
     company: "Digital Dada",
