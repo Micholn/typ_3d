@@ -30,5 +30,4 @@ const StarWrapper = (Component: React.FC, idName: string) => {
 export default StarWrapper;
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++
