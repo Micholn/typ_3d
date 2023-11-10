@@ -1,5 +1,3 @@
-
-
 export const textVariant = (delay: number) => {
   return {
     hidden: {
