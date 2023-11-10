@@ -2,7 +2,7 @@ import React from "react";
 import { motion, Variants } from "framer-motion";
 
 import { styles } from "../styles";
-import { staggerContainer, StaggerContainerVariants } from "../utils/motion";
+import { staggerContainer } from "../utils/motion";
 
 const StarWrapper = (Component: React.FC, idName: string) => {
   const variants: Variants = staggerContainer(1, 0);
