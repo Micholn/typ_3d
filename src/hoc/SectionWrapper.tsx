@@ -5,12 +5,12 @@ import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 
 const StarWrapper = (Component: React.FC, idName: string) => {
-  const variants: Variants = staggerContainer(1, 0);
+  const variants = staggerContainer(1, 0);
 
   function HOC() {
     return (
       <motion.section
-        variants={variants}
+        variants={variants as Variants} // Use Variants directly
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
