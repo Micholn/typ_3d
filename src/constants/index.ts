@@ -133,7 +133,7 @@ export const experiences = [
   {
     title: "Full stack Developer",
     company_name: "Celo Blockchain/Celo Academy (San Francisco, CA, United States)",
-    icon: meta,
+    icon: celld,
     iconBg: "#E6DEDD",
     date: "March 2023 - June 2023 (4 months)",
     points: [
@@ -148,7 +148,7 @@ export const experiences = [
   {
     title: "Front-end Software Engineer",
     company_name: "in-House (New York, United States)",
-    icon: tesla,
+    icon: inh,
     iconBg: "#E6DEDD",
     date: "October 2022 - April 2023 (8 months)",
     points: [
@@ -162,7 +162,7 @@ export const experiences = [
   {
     title: "Full-Stack Software Engineer (Lead Engineer)",
     company_name: "Ricecakes LLC (Houston, Texas, United States)",
-    icon: shopify,
+    icon: rice,
     iconBg: "#383E56",
     date: "March 2022 - August 2022 (6 months)",
     points: [     
@@ -175,7 +175,7 @@ export const experiences = [
   {
     title: "Full stack Developer",
     company_name: "Digital Dada (Fort Lauderdale, Florida, United States)",
-    icon: meta,
+    icon: ddd,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Mar 2022 (1 year 3 months)",
     points: [
@@ -190,7 +190,7 @@ export const experiences = [
   {
     title: "Backend Software Engineer (Node.js)",
     company_name: "Deep Consulting Solutions (Dallas, Texas, United States)",
-    icon: meta,
+    icon: deep,
     iconBg: "#E6DEDD",
     date: "Jan 2018 - December 2020 (2 years)",
     points: [
@@ -204,7 +204,7 @@ export const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Saitob Tech",
-    icon: meta,
+    
     iconBg: "#E6DEDD",
     date: "Feb 2015 - Jan 2017 (1 year 11 months)",
     points: [
