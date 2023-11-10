@@ -1,11 +1,11 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 import { styles } from "../styles";
 import { staggerContainer, StaggerContainerVariants } from "../utils/motion";
 
 const StarWrapper = (Component: React.FC, idName: string) => {
-  const variants: StaggerContainerVariants = staggerContainer(1, 0);
+  const variants: Variants = staggerContainer(1, 0);
 
   function HOC() {
     return (
@@ -23,7 +23,7 @@ const StarWrapper = (Component: React.FC, idName: string) => {
       </motion.section>
     );
   }
-  
+
   return HOC;
 };
 
