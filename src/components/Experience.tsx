@@ -17,7 +17,7 @@ interface Experience {
   title: string;
   company_name: string;
   points: string[];
-  icon: string;
+  icon?: string;
 }
 
 interface ExperienceCardProps {
