@@ -26,7 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-
+import celld from "./company/celld.png";
+import deep from "./company/deep.jpg";
+import rice from "./company/rice.png";
+import inh from "./company/inh.ico";
+import ddd from "./company/ddd.ico";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -68,4 +72,9 @@ export {
   jerimicho,
   rahul,
   dwayne,
+  celld,
+  deep,
+  rice,
+  inh,
+  ddd,
 };
