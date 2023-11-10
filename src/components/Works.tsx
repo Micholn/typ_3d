@@ -21,22 +21,22 @@ interface Project {
   tags: Tag[];
 }
 
-interface ProjectCardProps extends Project {
-  // Add the necessary props for Tilt component
-  tiltOptions: {
-    max: number;
-    scale: number;
-    speed: number;
+const ProjectCard: React.FC<Project> = ({ index, name, description, image, source_code_link, tags, }) => {
+  const tiltOptions: { max: number; scale: number; speed: number } = {
+    max: 45,
+    scale: 1,
+    speed: 450,
   };
-}
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ index, name, description, image, source_code_link, tags, tiltOptions }) => {
+  const tiltProps: { tilt: typeof tiltOptions; className: string } = {
+    tilt: tiltOptions,
+    className: "bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full",
+  };
 
   return ( 
     <motion.div variants={fadeIn({direction: "up", type: "spring", delay: index * 0.5, duration: 0.75})}>
       <Tilt
-         tiltOptions={tiltOptions}
-         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+         {...tiltProps}
       >
         <div className="relative w-full h-[230px]">
           <img

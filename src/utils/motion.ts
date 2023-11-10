@@ -1,3 +1,4 @@
+
 export const textVariant = (delay: number) => {
   return {
     hidden: {
@@ -100,12 +101,19 @@ export const slideIn = ({
   };
 };
 
-export const staggerContainer = (staggerChildren: number, delayChildren: number = 0 ) => {
-  return {
-    hidden: {},
-    show: {
-        staggerChildren: staggerChildren,
-        delayChildren : delayChildren || 0,
-    },
+
+type StaggerContainerType = (staggerChildren: number, delayChildren: number) => {
+  hidden: {};
+  show: {
+    staggerChildren: number;
+    delayChildren: number;
   };
 };
+
+export const staggerContainer: StaggerContainerType = (staggerChildren, delayChildren) => ({
+  hidden: {},
+  show: {
+    staggerChildren,
+    delayChildren,
+  },
+});
