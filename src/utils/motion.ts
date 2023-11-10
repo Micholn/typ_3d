@@ -103,19 +103,14 @@ export const slideIn = ({
 };
 
 
-// motion.ts
-export interface StaggerContainerVariants {
-  hidden: {};
-  show: {
-    staggerChildren: number;
-    delayChildren: number;
-  };
-}
 
-export const staggerContainer: StaggerContainerVariants = {
+export const staggerContainer = (
+  staggerChildren: number,
+  delayChildren: number
+): Variants => ({
   hidden: {},
   show: {
-    staggerChildren: 0, // Set your default values here
-    delayChildren: 0,
+    staggerChildren,
+    delayChildren,
   },
-};
+});
