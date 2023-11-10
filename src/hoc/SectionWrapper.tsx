@@ -10,7 +10,7 @@ const StarWrapper = (Component: React.FC, idName: string) => {
   function HOC() {
     return (
       <motion.section
-        variants={variants as StaggerContainerVariants}
+        variants={variants}
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
