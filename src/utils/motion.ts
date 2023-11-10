@@ -1,3 +1,5 @@
+import { Variants } from "framer-motion";
+
 
 export const textVariant = (delay: number) => {
   return {
@@ -101,16 +103,15 @@ export const slideIn = ({
   };
 };
 
-
-type StaggerContainerType = (staggerChildren: number, delayChildren: number) => {
-  hidden: {};
+export interface StaggerContainerVariants {
+  hidden: Variants;
   show: {
     staggerChildren: number;
     delayChildren: number;
   };
-};
+}
 
-export const staggerContainer: StaggerContainerType = (staggerChildren, delayChildren) => ({
+export const staggerContainer = (staggerChildren: number, delayChildren: number): StaggerContainerVariants => ({
   hidden: {},
   show: {
     staggerChildren,

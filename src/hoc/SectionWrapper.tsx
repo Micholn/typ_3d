@@ -2,14 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { staggerContainer } from "../utils/motion";
+import { staggerContainer, StaggerContainerVariants } from "../utils/motion";
 
 
 const StarWrapper = (Component: React.FC, idName: string) =>
   function HOC() {
     return (
       <motion.section
-        variants={staggerContainer(1,0)}
+      variants={staggerContainer(1, 0) as StaggerContainerVariants}
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
