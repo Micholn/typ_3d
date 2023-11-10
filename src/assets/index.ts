@@ -21,11 +21,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import celld from "./company/celld.png";
 import deep from "./company/deep.jpg";
 import rice from "./company/rice.png";
@@ -62,10 +57,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
