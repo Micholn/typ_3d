@@ -1,7 +1,5 @@
-
-
 import React from "react";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { staggerContainer, StaggerContainerVariants } from "../utils/motion";
