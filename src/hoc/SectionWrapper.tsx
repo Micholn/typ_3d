@@ -1,11 +1,11 @@
 import React from "react";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { staggerContainer } from "../utils/motion";
+import { staggerContainer, StaggerContainerVariants } from "../utils/motion";
 
 const StarWrapper = (Component: React.FC, idName: string) => {
-  const variants: Variants = staggerContainer(1, 0);
+  const variants = staggerContainer(1, 0) as StaggerContainerVariants;
 
   function HOC() {
     return (

@@ -103,11 +103,17 @@ export const slideIn = ({
 };
 
 
+interface StaggerContainerVariants extends Variants {
+  show: {
+    staggerChildren: number;
+    delayChildren: number;
+  };
+}
 
 export const staggerContainer = (
   staggerChildren: number,
   delayChildren: number
-): Variants => ({
+): StaggerContainerVariants => ({
   hidden: {},
   show: {
     staggerChildren,
