@@ -373,7 +373,9 @@ export const testimonials = [
 ];
 
  const Remember = () => {
-    agaggg
+    const HOC = () => {
+       for (i =0; i< Array.length ; i ++ )
+    }
  }
 
 
