@@ -373,11 +373,11 @@ export const testimonials = [
 ];
 
 
-hh
+
 
  const Remember = () => {
     const HOC = () => {
-       for (i =0; i< Array.length; i ++) {
+       for (i =0; i< Array.length; i ++) {   
 
        }
     }
