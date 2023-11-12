@@ -262,7 +262,7 @@ export const projects = [
   {
     name: "Vintage",
     description:
-      "Collaboratively designed, this Ukrainian site stands as a vibrant showcase, seamlessly blending simulations and art to exemplify the harmonious synchronization of programming and artistic expression. Explore a diverse array of content, ranging from social and TV projects to financial simulations and open-source designs.",
+      "Collaboratively designed, this Ukrainian site stands as a vibrant showcase, seamlessly blending simulations and art to exemplify the harmonious synchronization of programming and artistic expression. Explore a diverse array of content, ranging from social and TV projects to financial simulations and open-source designs. This platform serves not only as a showcase but as an educational resource, offering insights into the intersection of technology and creativity.",
     tags: [
       {
         name: "nextjs",
