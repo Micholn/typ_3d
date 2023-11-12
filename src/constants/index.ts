@@ -304,7 +304,7 @@ export const projects = [
   {
     name: "Tokenology",
     description:
-      "Web ",
+      "Collaboratively designed; Embark on a secure digital journey with our Blockchain and NFT app—an innovative platform designed for seamless exploration. Navigate with confidence in a protected environment as you search for the latest in blockchain and NFT advancements. Whether you're delving into the world of secure transactions, unique digital assets, or cutting-edge technologies, our app provides a user-friendly interface that prioritizes both security and functionality.",
     tags: [
       {
         name: "react",
