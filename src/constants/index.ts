@@ -325,7 +325,7 @@ export const projects = [
   {
     name: "Ricecakes",
     description:
-      "Embark on a journey into the imaginative realm with this Anime Book app—a captivating haven for fictional anime enthusiasts. Immerse yourself in a rich collection that extends beyond anime, featuring a diverse array of characters that come to life on the digital pages. Explore a world where storytelling transcends boundaries, offering not only the allure of anime narratives but also a curated selection of other compelling books.",
+      "Embark on a journey into the imaginative realm with this Anime Book app—a captivating haven for fictional anime enthusiasts. Immerse yourself in a rich collection that extends beyond anime, featuring a diverse array of characters that come to life on the digital pages. Explore a world where storytelling transcends boundaries, offering not only the allure of anime narratives but also a curated selection of other compelling books. Whether you're tackling intermediate tasks or delving into advanced complex logic and software",
     tags: [
       {
         name: "nextjs",
