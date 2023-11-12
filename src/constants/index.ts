@@ -244,7 +244,7 @@ export const projects = [
       "Step into the dynamic realm of art, a cutting-edge showcase of innovative marketing solutions and captivating websites tailored for prospective clients. Experience a seamless blend of creativity and functionality with diverse animations and live scroll capabilities. From the realms of art, history, culture, poetry, biology, fashion, and lifestyle, our website serves as a comprehensive hub, bringing together a tapestry of engaging content. ",
     tags: [
       {
-        name: "react",
+        name: "JQuery",
         color: "blue-text-gradient",
       },
       {
