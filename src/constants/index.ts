@@ -283,7 +283,7 @@ export const projects = [
   {
     name: "Celo",
     description:
-      "Discover an invaluable hub curated by Blockchain developers, tailored for Blockchain developers. Explore a comprehensive repository offering a wealth of resources for building and developing anything related to blockchain—equipping you with essential tools, cutting-edge technologies, and robust libraries to empower your development journey.",
+      "Discover an invaluable hub curated by Blockchain developers, tailored for Blockchain developers. Explore a comprehensive repository offering a wealth of resources for building and developing anything related to blockchain—equipping you with essential tools, cutting-edge technologies, and robust libraries to empower your development journey.Whether you're tackling intermediate tasks or delving into advanced complex logic and software",
     tags: [
       {
         name: "react",
