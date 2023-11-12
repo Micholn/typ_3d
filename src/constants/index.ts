@@ -283,7 +283,7 @@ export const projects = [
   {
     name: "Celo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Discover an invaluable hub curated by Blockchain developers, tailored for Blockchain developers. Explore a comprehensive repository offering a wealth of resources for building and developing anything related to blockchain—equipping you with essential tools, cutting-edge technologies, and robust libraries to empower your development journey.",
     tags: [
       {
         name: "react",
