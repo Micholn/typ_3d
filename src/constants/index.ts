@@ -265,15 +265,15 @@ export const projects = [
       "Collaboratively designed, this Ukrainian site stands as a vibrant showcase, seamlessly blending simulations and art to exemplify the harmonious synchronization of programming and artistic expression. Explore a diverse array of content, ranging from social and TV projects to financial simulations and open-source designs. This platform serves not only as a showcase but as an educational resource, offering insights into the intersection of technology and creativity.",
     tags: [
       {
-        name: "nextjs",
+        name: "nuxt",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "cursor",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
