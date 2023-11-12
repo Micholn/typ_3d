@@ -294,7 +294,7 @@ export const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
