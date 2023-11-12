@@ -311,7 +311,7 @@ export const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
