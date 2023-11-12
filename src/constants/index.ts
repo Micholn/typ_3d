@@ -332,11 +332,11 @@ export const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "GraphQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
