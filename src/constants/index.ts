@@ -220,7 +220,7 @@ export const projects = [
   {
     name: "Admire Amaze",
     description:
-      "Experience the vibrant world of 3D e-commerce, where shopping becomes a delightful journey at your fingertips. Browse through a diverse array of categories, including men's, women's, and children's fashion, and immerse yourself in a visually stunning and user-friendly interface.",
+      "Experience the vibrant world of 3D e-commerce, where shopping becomes a delightful journey at your fingertips. Browse through a diverse array of categories, including men's, women's, and children's fashion, and immerse yourself in a visually stunning and user-friendly interface. Prepare to be captivated by the seamless convenience of a shopping experience designed to evoke admiration and awe.",
     tags: [
       {
         name: "Three.js",
