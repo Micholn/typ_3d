@@ -379,7 +379,5 @@ export const testimonials = [
     const HOC = () => {
        for (i =0
        }
-    }
- }
-
+  
 
