@@ -376,6 +376,5 @@ export const testimonials = [
 
 
  const Remember = () => {
-    const HOC = () => {
-  
+    const 
 
