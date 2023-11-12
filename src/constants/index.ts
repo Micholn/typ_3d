@@ -304,7 +304,7 @@ export const projects = [
   {
     name: "Tokenology",
     description:
-      "Web application that enables users to search for job openings, view es",
+      "Web ",
     tags: [
       {
         name: "react",
