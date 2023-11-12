@@ -220,18 +220,18 @@ export const projects = [
   {
     name: "Admire Amaze",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Experience the vibrant world of 3D e-commerce, where shopping becomes a delightful journey at your fingertips. Browse through a diverse array of categories, including men's, women's, and children's fashion, and immerse yourself in a visually stunning and user-friendly interface.",
     tags: [
       {
-        name: "react",
+        name: "Three.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JQuery",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -262,7 +262,7 @@ export const projects = [
   {
     name: "Vintage",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Collaboratively designed, this Ukrainian site stands as a vibrant showcase, seamlessly blending simulations and art to exemplify the harmonious synchronization of programming and artistic expression. Explore a diverse array of content, ranging from social and TV projects to financial simulations and open-source designs.",
     tags: [
       {
         name: "nextjs",
