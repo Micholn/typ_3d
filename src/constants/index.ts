@@ -389,4 +389,4 @@ export const services = [
     icon: backend,
   },
   {
-    titl
+    tit
