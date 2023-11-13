@@ -386,4 +386,4 @@ export const services = [
   },
   {
     title: "Backend Developer",
-    icon: backe
+    icon: back
