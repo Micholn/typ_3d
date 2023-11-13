@@ -393,5 +393,3 @@ export const services = [
     icon: creator,
   },
 ];
-
-c
