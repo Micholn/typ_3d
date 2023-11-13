@@ -382,4 +382,4 @@ export const testimonials = [
 export const services = [
   {
     title: "Frontend Developer"
-    icon: mobi
+    icon: mob
