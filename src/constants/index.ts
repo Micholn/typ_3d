@@ -385,4 +385,4 @@ export const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer"
+    title: "Backend Developer
