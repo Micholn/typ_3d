@@ -386,4 +386,3 @@ export const services = [
   },
   {
     title: "Backend Developer",
-    ico
