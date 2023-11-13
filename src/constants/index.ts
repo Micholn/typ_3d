@@ -390,4 +390,4 @@ export const services = [
   },
   {
     title: "Content Creator",
-    icon: cre
+    icon: cr
