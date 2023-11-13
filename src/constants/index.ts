@@ -374,3 +374,26 @@ export const testimonials = [
 
 
 
+
+
+
+
+
+export const services = [
+  {
+    title: "Web/Blockchain Developer",
+    icon: web,
+  },
+  {
+    title: "Frontend Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Content Creator",
+    icon: creator,
+  },
+];
