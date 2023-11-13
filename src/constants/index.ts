@@ -381,8 +381,7 @@ export const testimonials = [
 
 export const services = [
   {
-    title: "Web/Blockchain Developer",
-    icon: web,
+    title: "Web/Blockchain
   },
   {
     title: "Frontend Developer",
