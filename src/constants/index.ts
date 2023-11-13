@@ -381,7 +381,7 @@ export const testimonials = [
 
 export const services = [
   {
-    ti
+    t
   },
   {
     title: "Frontend Developer",
@@ -400,5 +400,5 @@ export const services = [
 
 
 const Constants = [
-  
+
 ]
