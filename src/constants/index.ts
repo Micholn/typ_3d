@@ -400,6 +400,6 @@ const aboutMe = [
  "delivering quality work. With over 2,000 contributions to open-source projects, I advocate", 
  "for collective brainstorming and constructive arguments. I specialize in problem decomposition", 
  "to understand workings and actively participate in developer communities to stay abreast of emerging", 
- "technologies and trends.",
+ "technologies and tr
 
 ]
