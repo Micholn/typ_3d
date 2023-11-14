@@ -396,7 +396,6 @@ const aboutMe = [
  "system designs. I successfully fixed over 100 bugs in the system software, fortifying user experience", 
  "and engagement, resulting in a 20% improvement in software performance.",
  
- "Moreover, I have gained valuable experience working under pressure and consistently",  
- "delivering quality work."
+ "Moreover, I have gained valuable experience working under pressure and consistently", 
 
 ]
