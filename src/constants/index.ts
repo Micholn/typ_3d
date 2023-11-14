@@ -389,8 +389,6 @@ const aboutMe = [
  "Proficient in JavaScript, Node.js, Express, React.js, Redux, Next.js, Gatsby, MongoDB, MySQL,", 
  "TypeScript, Python, Solidity, AWS, AWS Security, Docker, Kubernetes, Git, REST API, AWS Lambda,", 
  "Redis, and GraphQL, my expertise lies in monitoring and maintaining user interface and server", 
- "performance, troubleshooting, and debugging to enhance overall system efficiency.",
  
- "In my recent roles at (https://celo.org, ht
 
 ]
