@@ -401,6 +401,5 @@ const aboutMe = [
  "for collective brainstorming and constructive arguments. I specialize in problem decomposition", 
  "to understand workings and actively participate in developer communities to stay abreast of emerging", 
  "technologies and trends.",
- 
 
 ]
