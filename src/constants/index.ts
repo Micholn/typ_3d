@@ -393,9 +393,10 @@ const aboutMe = [
  
  "In my recent roles at (https://celo.org, https://celo.academy/) and (https://in-house.com).", 
  "I provided support in testing and evaluating technological issues for troubleshooting software", 
- "system designs. I successfully fixed over 100 bugs in the system software, fortifying user experience", "and engagement, resulting in a 20% improvement in software performance.
+ "system designs. I successfully fixed over 100 bugs in the system software, fortifying user experience", 
+ "and engagement, resulting in a 20% improvement in software performance.",
  
- Moreover, I have gained valuable experience working under pressure and consistently delivering quality work. With over 2,000 contributions to open-source projects, I advocate for collective brainstorming and constructive arguments. I specialize in problem decomposition to understand workings and actively participate in developer communities to stay abreast of emerging technologies and trends.
+ "Moreover, I have gained valuable experience working under pressure and consistently delivering quality work. With over 2,000 contributions to open-source projects, I advocate for collective brainstorming and constructive arguments. I specialize in problem decomposition to understand workings and actively participate in developer communities to stay abreast of emerging technologies and trends.
  
  I am eager for the opportunity to contribute my skills to the growth and success of Cadenzabox.
  "
