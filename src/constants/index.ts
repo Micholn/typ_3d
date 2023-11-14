@@ -403,5 +403,4 @@ const aboutMe = [
  "technologies and trends.",
  
  "I am eager for the opportunity to contribute my skills to the growth and success of Cadenzabox."
- "
 ]
