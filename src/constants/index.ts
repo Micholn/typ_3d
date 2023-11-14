@@ -376,9 +376,9 @@ export const testimonials = [
 const aboutMe = [
   "Dear Cadenabox", 
 
-  I am excited to apply for the Backend JS (mid-level) developer position at Cadenzabox. As a certified Software Engineer by Cisco, Google, and MongoDB University, specializing in web application development and security, I bring a unique set of skills. My three key strengths include fast learning ability, meticulous attention to detail, and effective communication. I thrive on promptly completing tasks without procrastination and consistently strive for perfection, evident in my proven track record of designing technological solutions in compliance with industry standards.
+ " I am excited to apply for the Backend JS (mid-level) developer position at Cadenzabox. As a certified Software Engineer by Cisco, Google, and MongoDB University, specializing in web application development and security, I bring a unique set of skills. My three key strengths include fast learning ability, meticulous attention to detail, and effective communication. I thrive on promptly completing tasks without procrastination and consistently strive for perfection, evident in my proven track record of designing technological solutions in compliance with industry standards.
  
- Feel free to explore some of my works: https://inieroportfolio.netlify.app.
+ " Feel free to explore some of my works: https://inieroportfolio.netlify.app.
  
  My style of reasoning, versatility, ambidexterity, vast knowledge, and coding patterns not only make me unique but have also empowered me to build scalable applications for millions of users, contributing to the success of my clients' businesses.
  
