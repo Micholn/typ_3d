@@ -399,7 +399,8 @@ const aboutMe = [
  "Moreover, I have gained valuable experience working under pressure and consistently",  
  "delivering quality work. With over 2,000 contributions to open-source projects, I advocate", 
  "for collective brainstorming and constructive arguments. I specialize in problem decomposition", 
- "to understand workings and actively participate in developer communities to stay abreast of emerging",  technologies and trends.
+ "to understand workings and actively participate in developer communities to stay abreast of emerging", 
+ "technologies and trends.
  
  I am eager for the opportunity to contribute my skills to the growth and success of Cadenzabox.
  "
