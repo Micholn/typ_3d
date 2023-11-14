@@ -391,6 +391,6 @@ const aboutMe = [
  "Redis, and GraphQL, my expertise lies in monitoring and maintaining user interface and server", 
  "performance, troubleshooting, and debugging to enhance overall system efficiency.",
  
- "In my recent roles at (https://celo.org, https://celo.academy/) and (https://in-house.com).", 
+ "In my recent roles at (https://celo.org, ht
 
 ]
