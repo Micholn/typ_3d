@@ -388,7 +388,7 @@ const aboutMe = [
  
  "Proficient in JavaScript, Node.js, Express, React.js, Redux, Next.js, Gatsby, MongoDB, MySQL,", 
  "TypeScript, Python, Solidity, AWS, AWS Security, Docker, Kubernetes, Git, REST API, AWS Lambda,", 
- "Redis, and GraphQL, my expertise lies in monitoring and maintaining and server", 
+ "Redis, and GraphQL, my expertise lies in monitoring and and server", 
  
 
 ]
