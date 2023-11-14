@@ -402,5 +402,5 @@ const aboutMe = [
  "to understand workings and actively participate in developer communities to stay abreast of emerging", 
  "technologies and trends.",
  
- "I am eager for the opportunity to contribute my skills to the growth and success of Cadenzabox."
+
 ]
