@@ -397,7 +397,6 @@ const aboutMe = [
  "and engagement, resulting in a 20% improvement in software performance.",
  
  "Moreover, I have gained valuable experience working under pressure and consistently",  
- "delivering quality work. With over 2,000 contributions to open-source projects, I advocate", 
- "for collective brainstorming and constructive arguments. "
+ "delivering quality work. With over 2,000 contributions to open-source projects, I advocate",
 
 ]
