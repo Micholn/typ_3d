@@ -392,6 +392,5 @@ const aboutMe = [
  "performance, troubleshooting, and debugging to enhance overall system efficiency.",
  
  "In my recent roles at (https://celo.org, https://celo.academy/) and (https://in-house.com).", 
- "I provided support in testing and evaluating technological issues for troubleshooting software", 
 
 ]
