@@ -387,6 +387,6 @@ const aboutMe = [
  " applications for millions of users, contributing to the success of my clients' businesses.",
  
  "Proficient in JavaScript, Node.js, Express, React.js, Redux, Next.js, Gatsby, MongoDB, MySQL,", 
- "TypeScript, Python, Solidity, AWS Security, Docker", 
+ "TypeScript, Python, Solidity, AWS Security", 
 
 ]
