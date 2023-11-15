@@ -384,6 +384,6 @@ const aboutMe = [
  
  "My style of reasoning, versatility, ambidexterity, vast knowledge, and coding", 
  "patterns not only make me unique but have also empowered me to build scalable", 
- " applications ", 
+ " app", 
 
 ]
