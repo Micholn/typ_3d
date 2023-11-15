@@ -386,6 +386,6 @@ const aboutMe = [
  "patterns not only make me unique but have also empowered me to build scalable", 
  " applications for millions of users, contributing to the success of my clients' businesses.",
  
- "Proficient in JavaScript, Node.js, Express, React.js, Redux, Next.js, Gatsby, MongoDB,", 
+ "Proficient in JavaScript, Node.js, Express, React.js, Redux, Next.js,", 
 
 ]
