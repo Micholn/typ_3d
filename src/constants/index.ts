@@ -388,7 +388,6 @@ const aboutMe = [
  
  "Proficient in JavaScript, Node.js, Express, React.js, Redux, Next.js, Gatsby, MongoDB, MySQL,", 
  "TypeScript, Python, Solidity, AWS Security, Docker, Kubernetes, Git, REST API, AWS Lambda,", 
- "Redis, and GraphQL", 
  
 
 ]
