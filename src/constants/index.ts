@@ -382,6 +382,6 @@ const aboutMe = [
  
  " Feel free to explore some of my works: https://inieroportfolio.netlify.app.",
  
- "My style of reasoning, versatility, ambidexterity, vast knowledge, and ", 
+ "My style of reasoning, versatility, ambidexterity, vast knowledge", 
 
 ]
