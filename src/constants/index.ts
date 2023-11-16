@@ -383,6 +383,6 @@ const aboutMe = [
  " Feel free to explore some of my works: https://inieroportfolio.netlify.app.",
  
  "My style of reasoning, versatility, ambidexterity, vast knowledge, and coding", 
- "patterns not only make me unique", 
+ "patterns not only make me", 
 
 ]
