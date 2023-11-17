@@ -383,5 +383,5 @@ const aboutMe = [
  " Feel free to explore some of my works: https://inieroportfolio.netlify.app.",
  
  "My", 
- "I am excited to apply for the Backend JS (mid-level) developer position at Cadenzabox. As a certified Software Engineer by Cisco, Google, and MongoDB University, specializing in web application development and security, I bring a unique set of skills",
+ "I am excited to apply for the Backend JS (mid-level) developer position at Cadenzabox. As a certified Software Engineer by Cisco, Google, and MongoDB University, specializing in web application development and security, I bring a unique set of ",
 ]
