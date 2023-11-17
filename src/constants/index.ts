@@ -383,5 +383,5 @@ const aboutMe = [
  " Feel free to explore some of my works: https://inieroportfolio.netlify.app.",
  
  "My", 
- "I am excited to apply for the Backend JS (mid-level) developer position",
+ "I am excited to apply for the Backend JS (mid-level) developer",
 ]
