@@ -382,5 +382,5 @@ const aboutMe = [
  
  " Feel free to explore some of my works: https://inieroportfolio.netlify.app.",
  
- "My",
+ "My
 ]
