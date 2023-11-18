@@ -380,5 +380,5 @@ const aboutMe = [
  " I thrive on promptly completing tasks without procrastination and consistently strive for perfection", 
  "evident in my proven track record of designing technological solutions in compliance with industry standards.",
  
- " Feel free to explore",
+ " Feel free to",
 ]
