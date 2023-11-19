@@ -376,5 +376,5 @@ export const testimonials = [
 const aboutMe = [
   "Dear Cadenabox", 
 
- " I am excited to apply for the Backend JS (mid-level) developer position at Cadenzabox. As a certified Software Engineer by Cisco, Google, and MongoDB University, specializing in web application development and security, I bring a unique set of skills. My three key strengths include fast learning ability, meticulous attentio" 
+ " I am excited to apply for the Backend JS (mid-level) developer position at Cadenzabox. As a certified Software Engineer by Cisco, Google, and MongoDB University, specializing in web application development and security, I bring a unique set of skills. My three key strengths include fast learning ability, meticulous" 
 ]
