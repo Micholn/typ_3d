@@ -374,5 +374,5 @@ export const testimonials = [
 
 
 const aboutMe = [
-  "Dear Cadenabox", 
+ 
 ]
