@@ -375,4 +375,3 @@ export const testimonials = [
 
 const aboutMe = [
  
-]
