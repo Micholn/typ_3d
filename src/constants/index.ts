@@ -376,5 +376,5 @@ export const testimonials = [
 const aboutMe = [
   "Dear Cadenabox", 
 
- " I am excited to apply for the Backend JS" 
+ " I am excited to apply for the Backend" 
 ]
