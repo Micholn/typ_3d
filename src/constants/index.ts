@@ -373,5 +373,4 @@ export const testimonials = [
 ];
 
 
-const aboutMe = [
- 
+const aboutMe
