@@ -385,7 +385,7 @@ const workSection = [
 
 
 
-//each function should run 
+//each function should 
 
 // the runSequnetially should reject the promise if any throws an exception 
 
