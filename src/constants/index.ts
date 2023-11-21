@@ -385,7 +385,7 @@ const workSection = [
 
 
 
-// the runSequnetially should reject the promise if any throws an 
+// the runSequnetially should reject the promise if any throws
 
 //first element in the result array should be the result of the first function
 
