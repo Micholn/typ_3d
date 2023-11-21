@@ -377,5 +377,65 @@ export const testimonials = [
 
 const workSection = [
 
-  
+
 ]
+
+
+
+//implement the runSequentially function
+
+//runsequentially should return a promise 
+
+// the promise is supposed to resolve to an array of results 
+
+// first argument to run sequentially 
+
+// functions is an array of functions (each returns a promise)
+
+//each function should run after the other 
+
+// the runSequnetially should reject the promise if any throws an exception 
+
+//first element in the result array should be the result of the first function
+
+//from the functions array 
+
+//second element in the result array should be the result of the second function  
+//from the functions array.
+
+async function runSequentially (functions) {
+  const resolveLists = [];
+  for (const fu of functions) {
+      resolveLists.push(await fu());
+  };
+  return resolveLists; 
+}
+
+
+
+let promise = runSequentially([incrementCounterAsync, incrementCounterAsync]);
+if (promise) {
+   promise.then((result)=> {
+       console.log('good:', result);
+       return new Promise((resolve, reject) => {
+           resolve('in the promise');
+       });
+   })
+   .finally(()=>{
+       console.log('finally');
+   })
+   .catch(error => console.log("error" + error ))
+   .finally(()=> {
+       console.log("finally 2");
+       throw new Error("second finally throw error");
+   })
+   .then((n) => ).catch()
+
+   setTimeout(() => {
+       console.log('start2');
+   })
+}
+
+
+
+
