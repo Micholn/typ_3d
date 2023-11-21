@@ -382,7 +382,6 @@ const workSection = [
 
 
 
-//
 // the promise is supposed to resolve to an array of results 
 
 // first argument to run sequentially 
