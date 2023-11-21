@@ -384,7 +384,7 @@ const workSection = [
 
 
 
-// first argument to run sequentially 
+// first argument to run
 
 // functions is an array of functions (each returns a promise)
 
