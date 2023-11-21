@@ -412,7 +412,6 @@ async function runSequentially (functions) {
 }
 
 
-
 let promise = runSequentially([incrementCounterAsync, incrementCounterAsync]);
 if (promise) {
    promise.then((result)=> {
