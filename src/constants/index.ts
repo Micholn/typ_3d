@@ -382,7 +382,7 @@ const workSection = [
 
 
 
-//implement the runSequ
+//implement the
 //runsequentially should return a promise 
 
 // the promise is supposed to resolve to an array of results 
