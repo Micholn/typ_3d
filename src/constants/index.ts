@@ -382,7 +382,7 @@ const workSection = [
 
 
 
-// the promise is supposed to 
+// the promise is supposed
 
 // first argument to run sequentially 
 
