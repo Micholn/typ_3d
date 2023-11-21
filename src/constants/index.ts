@@ -384,7 +384,7 @@ const workSection = [
 
 
 
-// functions is an array of functions (each 
+// functions is an array of functions (e
 
 //each function should run after the other 
 
