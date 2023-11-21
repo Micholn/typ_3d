@@ -384,7 +384,7 @@ const workSection = [
 
 
 
-// functions is an
+// functions is
 
 //each function should run after the other 
 
