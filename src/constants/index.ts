@@ -385,8 +385,6 @@ const workSection = [
 
 
 
-//each 
-
 // the runSequnetially should reject the promise if any throws an exception 
 
 //first element in the result array should be the result of the first function
